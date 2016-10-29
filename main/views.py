@@ -1,6 +1,6 @@
 import json
 
-from . import views
+#from . import views
 
 from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseBadRequest
