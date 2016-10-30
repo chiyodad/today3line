@@ -1,0 +1,13 @@
+beautifulsoup4==4.5.1
+click==6.6
+decorator==4.0.10
+Django==1.10.1
+html2text==2016.9.19
+itsdangerous==0.24
+JPype1-py3==0.5.5.2
+konlpy==0.4.4
+MarkupSafe==0.23
+networkx==1.11
+pytz==2016.7
+requests==2.11.1
+textrankr==0.3
