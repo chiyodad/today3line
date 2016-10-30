@@ -16,15 +16,14 @@ import os
 #from django.core.exceptions import ImproperlyConfigured
 
 #def get_secret(setting):
-#	with open("secrets.json") as f:
-#		secrets=json(f.read())
 #	try:
-#		return secrets[setting]
+#		return os.environ[setting]
 #	except KeyError:
-#		error_msg="Set the {0} environment variable".format(setting)
-#		raise ImproperlyCofigured(error_msg)
+#		error_msg="Set the %s environment variable"%setting
+#		raise ImproperlyConfigured(error_msg)
 
-#SECRET_KEY=get_secret("SECRET_KEY")
+#SECRET_KEY=get_secret('H3ll@W@rlD!')
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
